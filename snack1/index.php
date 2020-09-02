@@ -21,15 +21,6 @@ strpos(stringa, cosaCercare) - cerca all’interno di una stringa un’altra str
 ucfirst(stringa) - ucwords(stringa) - rende maiuscola o il primo carattere o il primo carattere di ogni parola -->
 
 
-<!-- GOAL:
-Snack 1 -->
-<!-- Creiamo un array  -->
-<!-- contenente le partite di basket
-di un'ipotetica tappa del calendario. -->
- <!-- Ogni array avrà una squadra di casa e una squadra ospite,
-  punti fatti dalla squadra di casa e punti fatti dalla squadra ospite.
-   Stampiamo a schermo tutte le partite con questo schema.
-Olimpia Milano - Cantù | 55-60 -->
 
 <?php
   $arrayMatches = [
@@ -73,15 +64,4 @@ Olimpia Milano - Cantù | 55-60 -->
   }
 
 
-
-  // print_r($arrayMatches);
-
-
  ?>
-
-
-<!-- Snack 2
-Passare come parametri GET name, mail e age e verificare (cercando i metodi che non conosciamo nella documentazione) che name sia più lungo di 3 caratteri, che mail contenga un punto e una chiocciola e che age sia un numero. Se tutto è ok stampare "Accesso riuscito", altrimenti "Accesso negato"
-Snack 4
-Creare un array con 15 numeri casuali, tenendo conto che l'array non dovrà contenere lo stesso numero più di una volta
-NOTE: come detto gli snacks possono essere svolti in un singolo file, o in file separati, a piacere -->
